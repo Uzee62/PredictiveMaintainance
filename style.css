@@ -1,0 +1,41 @@
+.st-emotion-cache-bm2z3a{
+    background-color: #0097b2 !important;
+}
+.st-emotion-cache-12fmjuu {
+    background-color: black !important;
+}
+
+.st-emotion-cache-6qob1r {
+    background-color: rgb(52, 136, 66);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+.st-emotion-cache-ztfqz8 {
+    color: azure
+}
+.st-emotion-cache-1pbsqtx {
+    color: azure
+}
+
+p, ol, ul, dl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.st-emotion-cache-1v6glgu ul {
+    color: black
+}
+.st-emotion-cache-7ym5gk{
+    background-color: #05745b;
+    border-radius: 2.5rem;
+}
+
+.st-emotion-cache-7ym5gk:hover {
+    border-color: rgb(20 9 9);
+    background: rgb(75 146 255 / 28%);
+    }
