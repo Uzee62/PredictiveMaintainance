@@ -31,6 +31,7 @@ with open("style.css") as f:
 
 st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
+st.logo("Background_img.jpg")
 
 Input_method = st.sidebar.selectbox("Choose Your Option", ["Choose","Upload a file", "Input Manually"])
 
@@ -64,6 +65,7 @@ if Input_method =="Upload a file":
 
                 # Inverse transform the predictions to the original scale
                 y_original_prediction = target_scaler.inverse_transform(y_scaled_prediction.reshape(-1, 1))
+                #to get prediction in range of 0 - 100
                 y_original_prediction = np.clip(y_original_prediction, 0, 100)
 
                 # Append predictions to the original DataFrame

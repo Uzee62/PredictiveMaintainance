@@ -1,12 +1,22 @@
+.element.style{
+    background-image: url('Background_Img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
 .st-emotion-cache-bm2z3a{
-    background-color: #0097b2 !important;
+    background-color: #0097b2 ;
+    background-image: url('Background_Img.jpg')
 }
 .st-emotion-cache-12fmjuu {
-    background-color: black !important;
+    background-color: black ;
 }
 
 .st-emotion-cache-6qob1r {
-    background-color: rgb(52, 136, 66);
+    background-color: rgb(87, 105, 90);
 }
 h1{
     color: white;
@@ -30,12 +40,20 @@ p, ol, ul, dl {
 .st-emotion-cache-1v6glgu ul {
     color: black
 }
-.st-emotion-cache-7ym5gk{
+.st-emotion-cache-ocsh0s {
     background-color: #05745b;
     border-radius: 2.5rem;
 }
 
-.st-emotion-cache-7ym5gk:hover {
+.st-emotion-cache-ocsh0s:hover {
     border-color: rgb(20 9 9);
     background: rgb(75 146 255 / 28%);
     }
+
+.st-emotion-cache-2qqdmp{
+    color: rgb(211 212 219);;
+}
+.st-bl {
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
