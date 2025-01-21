@@ -17,12 +17,23 @@ with open(FEATURE_SCALER_PATH, "rb") as feature_scaler_file:
 
 with open(TARGET_SCALER_PATH, "rb") as target_scaler_file:
     target_scaler = pickle.load(target_scaler_file)
+    
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <img src="https://www.nortechsys.com/wp-content/uploads/2024/01/Nortech_Industrial_617366372_1200x500-1024x410.jpg" alt="Header Image" style="width:50%; border-radius: 10px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 # App title and description
 st.title("RUL Prediction App")
 st.write("""The features of the file should be:
                 \n Data_No,\n Differential_pressure,\n Flow_rate,\n Time,\n Dust_feed,\n Dust
 """)
+
 
 # Loading the CSS file
 with open("style.css") as f:
@@ -35,6 +46,7 @@ st.logo("Background_img.jpg")
 
 Input_method = st.sidebar.selectbox("Choose Your Option", ["Choose","Upload a file", "Input Manually"])
 
+# st.image("Background_img.jpg",width="20px")
 
 if Input_method =="Upload a file":
 # File uploader
